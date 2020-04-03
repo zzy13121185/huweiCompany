@@ -1,0 +1,10 @@
+
+.sss-switch-sex::after {
+	content: "隐患";
+	font-size: 20rpx;
+}
+.sss-switch-sex::before {
+	content: "安全";
+	font-size: 20rpx;
+}
+

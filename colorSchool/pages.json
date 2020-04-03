@@ -1,0 +1,120 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/basic/login/login",
+			"style": {}
+		}, {
+			"path": "pages/basic/home/home",
+			"style": {}
+		}, {
+			"path": "pages/some/report/report",
+			"style": {}
+		}
+
+
+		, {
+			"path": "pages/some/reportDetail/reportDetail",
+			"style": {}
+		}
+
+		, {
+			"path": "pages/steps/hiddenDangerRectification/hiddenDangerRectification",
+			"style": {}
+		}, {
+			"path": "pages/steps/dangerReview/dangerReview",
+			"style": {}
+		}, {
+			"path": "pages/steps/changeReview/changeReview",
+			"style": {}
+		}, {
+			"path": "pages/steps/chiefDeal/chiefDeal",
+			"style": {}
+		}, {
+			"path": "pages/steps/presidentDeal/presidentDeal",
+			"style": {}
+		}, {
+			"path": "pages/some/anquanxuncha/anquanxuncha",
+			"style": {}
+		}, {
+			"path": "pages/some/XFreport/XFreport",
+			"style": {}
+		}
+
+
+		, {
+			"path": "pages/some/dangerFile/dangerFile",
+			"style": {}
+		}, {
+			"path": "pages/some/dangerFile/dangerFileDetail/dangerFileDetail",
+			"style": {}
+		}, {
+			"path": "pages/some/todoPage/todoPage",
+			"style": {}
+		}, {
+			"path": "pages/some/anquanxuncha/xgDetail/xgDetail",
+			"style": {}
+		}, {
+			"path": "pages/check/hiddenDangerQuery/hiddenDangerQuery",
+			"style": {}
+		}, {
+			"path": "pages/check/hiddenDangerQuery/HDQdetail/HDQdetail",
+			"style": {}
+		}, {
+			"path": "pages/check/schoolCheck/schoolCheck",
+			"style": {}
+		}, {
+			"path": "pages/check/schoolCheck/SCdetail/SCdetail",
+			"style": {}
+		},
+		{
+			"path": "pages/check/fireControlCheck/fireControlCheck",
+			"style": {}
+		}, {
+			"path": "pages/check/fireControlCheck/FCCdetail/FCCdetail",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/check/blockCheck/blockCheck",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/check/blockCheck/BCdetail/BCdetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/check/preventionOfMaterialDefense/preventionOfMaterialDefense",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/check/preventionOfMaterialDefense/PMDdetail/PMDdetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/check/spotCheck/spotCheck",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/check/spotCheck/SCdetail/SCdetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/check/spotCheck/spotDetail/spotDetail",
+            "style" : {}
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "电子信息学校",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

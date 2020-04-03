@@ -1,0 +1,41 @@
+
+#yhsb .cu-list+.cu-list {
+	margin-top: 1rpx
+}
+#yhsb .task-toast {
+		width: 710rpx;
+		height: 110rpx;
+		line-height: 2;
+		margin: 0 auto;
+}
+#yhsb .dangerToast {
+		color: #F56C6C;
+		text-indent: 1em;
+		font-size: 16px;
+}
+#yhsb .footItem {
+	position: fixed;
+	z-index: 1111;
+	bottom: 0rpx;
+	width: 750rpx;
+	height: 240rpx;
+}
+#arrRow {
+	
+	/* margin-top: 110upx; */
+}
+.steptitle {
+	text-align: justify;
+	padding-right: 30rpx;
+	font-size: 30rpx;
+	position: relative;
+	height: 60rpx;
+	line-height: 60rpx;
+	width: 200rpx;
+}
+.stepFlex{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+

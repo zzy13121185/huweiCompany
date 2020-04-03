@@ -1,0 +1,6 @@
+
+.sc-name{
+	width: 250rpx;
+	text-align: center;
+}
+

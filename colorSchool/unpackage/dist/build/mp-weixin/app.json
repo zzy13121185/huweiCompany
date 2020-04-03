@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/basic/login/login",
+    "pages/basic/home/home",
+    "pages/some/report/report",
+    "pages/some/fireControl/fireControl",
+    "pages/some/searchDanger/searchDanger",
+    "pages/some/taskTroubleshooting/taskTroubleshooting",
+    "pages/some/reportDetail/reportDetail",
+    "pages/some/safeSearch/safeSearch",
+    "pages/steps/hiddenDangerRectification/hiddenDangerRectification",
+    "pages/steps/dangerReview/dangerReview",
+    "pages/steps/changeReview/changeReview",
+    "pages/steps/chiefDeal/chiefDeal",
+    "pages/steps/presidentDeal/presidentDeal",
+    "pages/some/anquanxuncha/anquanxuncha",
+    "pages/some/XFreport/XFreport",
+    "pages/some/searchDanger/searchDangerDetail/searchDangerDetail",
+    "pages/some/taskTroubleshooting/taskDetail/taskDetail",
+    "pages/some/dangerFile/dangerFile",
+    "pages/some/dangerFile/dangerFileDetail/dangerFileDetail",
+    "pages/some/todoPage/todoPage",
+    "pages/some/safeSearch/safeSearchDetail/safeSearchDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "电子信息学校",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "study"
+    }
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "tem-home": "/pages/function/temHome",
+    "todo-list": "/pages/function/todoList",
+    "scan": "/pages/function/scan",
+    "search": "/pages/function/search",
+    "xungeng": "/pages/function/xungeng",
+    "report-scan": "/pages/function/reportScan",
+    "xuncha": "/pages/function/xuncha",
+    "step-info": "/pages/DangerDetailCom/stepInfo"
+  }
+}
