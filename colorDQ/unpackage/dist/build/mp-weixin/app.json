@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/basic/login/login",
+    "pages/basic/home/home",
+    "pages/some/report/report",
+    "pages/some/searchDanger/searchDanger",
+    "pages/some/taskTroubleshooting/taskTroubleshooting",
+    "pages/some/reportDetail/reportDetail",
+    "pages/some/safeSearch/safeSearch",
+    "pages/steps/hiddenDangerRectification/hiddenDangerRectification",
+    "pages/steps/dangerReview/dangerReview",
+    "pages/steps/changeReview/changeReview",
+    "pages/steps/chiefDeal/chiefDeal",
+    "pages/steps/presidentDeal/presidentDeal",
+    "pages/some/searchDanger/searchDangerDetail/searchDangerDetail",
+    "pages/some/taskTroubleshooting/taskDetail/taskDetail",
+    "pages/some/dangerFile/dangerFile",
+    "pages/some/dangerFile/dangerFileDetail/dangerFileDetail",
+    "pages/some/todoPage/todoPage",
+    "pages/some/topNotice/topNotice",
+    "pages/some/dangerList/dangerList",
+    "pages/steps/overDue/overDue",
+    "pages/some/showData/showData",
+    "pages/some/dangerListSearch/dangerListSearch",
+    "pages/some/writeInDangerLIst/writeInDangerLIst",
+    "pages/some/score/score",
+    "pages/some/safeSearch/safeSearchDetail/safeSearchDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "忽微公路工程隐患排查",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于记录用户位置"
+    }
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "tem-home": "/pages/function/temHome",
+    "search": "/pages/function/search",
+    "step-info": "/pages/DangerDetailCom/stepInfo"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,181 @@
+.btBar {
+	position: fixed;
+	z-index: 9999;
+	bottom: 0upx;
+	width: 750upx;
+}
+
+.btmLine {
+	border-bottom: 1rpx solid #eee;
+
+}
+
+/* login */
+.login-title {
+	width: 750upx;
+	height: 500upx !important;
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+	line-height: 12 !important;
+	text-align: center;
+}
+
+.login-row {
+	width: 600upx;
+	height: 360upx !important;
+	background-color: #ffffff;
+	margin: 0 auto;
+	border-radius: 10upx;
+	margin-top: -200upx;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	padding: 10upx;
+	box-sizing: border-box;
+}
+
+.login-commit {
+	margin: 0 auto;
+	width: 600upx;
+	height: 100upx;
+	margin-top: 30upx;
+}
+
+.commit-btn {
+	width: 300upx;
+	height: 80upx !important;
+	float: right;
+}
+
+.diviceLine {
+	width: 600upx;
+	margin: 20upx auto;
+	height: 60upx;
+	line-height: 60upx;
+	position: relative;
+}
+
+.diviceLineTitle {
+	width: 240upx;
+	height: 60upx;
+	line-height: 60upx;
+	margin: 0 auto;
+	color: #383837;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+	background-color: rgb(241, 241, 241);
+}
+
+.diviceLineIn {
+	width: 100%;
+	height: 1px;
+	background-color: rgb(203, 203, 203);
+	position: absolute;
+	top: 29upx;
+	z-index: 9;
+}
+
+.login-wx {
+	width: 100upx;
+	height: 100upx;
+	margin: auto;
+}
+
+.wx-icon {
+	margin-top: 12upx;
+	width: 80upx;
+	height: 80upx;
+}
+
+.wx-icon-r {
+	text-align: center;
+	width: 100%;
+
+}
+
+
+/* 搜索页脚 */
+
+.dl-footer-btn {
+	width: 100%;
+	bottom: 0upx;
+	height: 160upx;
+	position: fixed;
+	background: #ffffff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 50upx;
+	box-sizing: border-box;
+	border-top: 1px solid #D53930;
+}
+
+.footer-time {
+	width: 250upx;
+	height: 60upx;
+	box-sizing: border-box;
+	border: 1px solid #D53930;
+	border-radius: 3px;
+	line-height: 60upx;
+	text-align: center;
+	color: #606266;
+}
+
+.footer-search {
+	width: 60upx;
+	height: 60upx;
+	box-sizing: border-box;
+	/* border: 1px solid #09BB07; */
+}
+
+.sa {
+	width: 100%;
+	height: 100%;
+}
+
+.nodataRow {
+	width: 400upx;
+	margin: 0 auto;
+}
+
+
+.footItem {
+	position: fixed;
+	z-index: 1111;
+	width: 750upx;
+	height: 240upx;
+	bottom: 90upx !important;
+}
+
+
+.user-title {
+	width: 600upx;
+	height: 500upx !important;
+	position: relative;
+	z-index: 1;
+	color: #ffffff;
+	line-height: 7 !important;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgb(109,192,69);
+	top: 60upx;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.user-name{
+	position: absolute;
+	width: 100%;
+	height: 30upx;
+	top: 80upx;
+}
+.user-head{
+	position: relative;
+	width: 240upx;
+	height: 240upx;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+	top: 30upx;
+}

@@ -1,0 +1,137 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/basic/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/basic/home/home",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/report/report",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/some/searchDanger/searchDanger",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/taskTroubleshooting/taskTroubleshooting",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/reportDetail/reportDetail",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/some/safeSearch/safeSearch",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/steps/hiddenDangerRectification/hiddenDangerRectification",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/steps/dangerReview/dangerReview",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/steps/changeReview/changeReview",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/steps/chiefDeal/chiefDeal",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/steps/presidentDeal/presidentDeal",
+            "style" : {}
+        }
+        
+        
+        ,{
+            "path" : "pages/some/searchDanger/searchDangerDetail/searchDangerDetail",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/some/dangerFile/dangerFile",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/dangerFile/dangerFileDetail/dangerFileDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/todoPage/todoPage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/topNotice/topNotice",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/dangerList/dangerList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/steps/overDue/overDue",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/showData/showData",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/dangerListSearch/dangerListSearch",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/writeInDangerLIst/writeInDangerLIst",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/score/score",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/safeSearch/safeSearchDetail/safeSearchDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/writeInDangerLIst/writeDetail/writeDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/checkCard/checkCard",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/qrCode/qrCode",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/some/checkSearch/checkSearch",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "忽微公路工程隐患排查",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "normal": "/pages/function/normalReport",
+    "scene": "/pages/function/sceneReport"
+  }
+}

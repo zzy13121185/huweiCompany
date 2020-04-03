@@ -1,0 +1,17 @@
+
+.steptitle {
+	text-align: justify;
+	padding-right: 0rpx;
+	font-size: 30rpx;
+	position: relative;
+	height: 60rpx;
+	line-height: 60rpx;
+	width: 220rpx;
+	padding-left: 20rpx;
+}
+.stepFlex{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+

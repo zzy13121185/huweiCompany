@@ -1,0 +1,1 @@
+<view><cu-custom vue-id="3a7b95ce-1" bgColor="bg-red" isBack="{{false}}" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content">用户二维码</view></cu-custom><image style="width:700rpx;height:700rpx;margin-left:25rpx;margin-top:100rpx;" src="{{url}}" mode="aspectFit" data-event-opts="{{[['tap',[['ViewImage',['$event']]]]]}}" bindtap="__e"></image></view>
